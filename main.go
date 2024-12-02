@@ -1,9 +1,7 @@
 package main
 
 import (
-	"fmt"
-
-	"github.com/Arturo/godesde0/ejercicios"
+	"github.com/Arturo/godesde0/teclado"
 )
 
 func main() {
@@ -22,13 +20,15 @@ func main() {
 		fmt.Println("Esto es Darwing")
 	default:
 		fmt.Printf("%s \n", os)
-	}*/
+	}
 
 	// Llamada a la función ConvertirYEvaluar
 	numero, mensaje := ejercicios.ConvertirYEvaluar("150")
 	fmt.Printf("Número: %d, Mensaje: %s\n", numero, mensaje)
 
 	numero, mensaje = ejercicios.ConvertirYEvaluar("50")
-	fmt.Printf("Número: %d, Mensaje: %s\n", numero, mensaje)
+	fmt.Printf("Número: %d, Mensaje: %s\n", numero, mensaje)*/
+
+	teclado.IngresoNumero()
 
 }

@@ -1,8 +1,6 @@
 package main
 
-import (
-	"github.com/Arturo/godesde0/files"
-)
+import "github.com/Arturo/godesde0/funciones"
 
 //import "github.com/Arturo/godesde0/ejercicios"
 
@@ -32,7 +30,9 @@ func main() {
 	fmt.Printf("Número: %d, Mensaje: %s\n", numero, mensaje)
 
 	teclado.IngresoNumero()*/
-	numero := files.LeerNumero()
-	files.GenerarTabla(numero)
+	//numero := files.LeerNumerob()
+	//files.GenerarTablab(numero)
 
+	//funciones.Calculos()
+	funciones.LlamarClosure()
 }

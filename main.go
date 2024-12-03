@@ -1,8 +1,10 @@
 package main
 
 import (
-	"github.com/Arturo/godesde0/ejercicios"
+	"github.com/Arturo/godesde0/files"
 )
+
+//import "github.com/Arturo/godesde0/ejercicios"
 
 func main() {
 	/*estado, texto := variables.ConviertoaTexto(1588)
@@ -30,7 +32,7 @@ func main() {
 	fmt.Printf("Número: %d, Mensaje: %s\n", numero, mensaje)
 
 	teclado.IngresoNumero()*/
-	numero := ejercicios.LeerNumero()
-	ejercicios.GenerarTabla(numero)
+	numero := files.LeerNumero()
+	files.GenerarTabla(numero)
 
 }

@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/Arturo/godesde0/teclado"
+	"github.com/Arturo/godesde0/ejercicios"
 )
 
 func main() {
@@ -27,8 +27,10 @@ func main() {
 	fmt.Printf("Número: %d, Mensaje: %s\n", numero, mensaje)
 
 	numero, mensaje = ejercicios.ConvertirYEvaluar("50")
-	fmt.Printf("Número: %d, Mensaje: %s\n", numero, mensaje)*/
+	fmt.Printf("Número: %d, Mensaje: %s\n", numero, mensaje)
 
-	teclado.IngresoNumero()
+	teclado.IngresoNumero()*/
+	numero := ejercicios.LeerNumero()
+	ejercicios.GenerarTabla(numero)
 
 }

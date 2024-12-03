@@ -34,5 +34,6 @@ func main() {
 	//files.GenerarTablab(numero)
 
 	//funciones.Calculos()
-	funciones.LlamarClosure()
+	funciones.Exponencia(2)
+
 }

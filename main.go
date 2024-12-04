@@ -1,6 +1,6 @@
 package main
 
-import "github.com/Arturo/godesde0/funciones"
+import "github.com/Arturo/godesde0/arreglos_slices"
 
 //import "github.com/Arturo/godesde0/ejercicios"
 
@@ -34,6 +34,8 @@ func main() {
 	//files.GenerarTablab(numero)
 
 	//funciones.Calculos()
-	funciones.Exponencia(2)
+	//funciones.Exponencia(2)
+	//arreglos_slices.MuestroArreglos()
+	arreglos_slices.Capacidad()
 
 }

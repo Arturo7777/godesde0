@@ -8,8 +8,8 @@ func MostrarMapas() {
 
 	paises["Mexico"] = "D.F."
 	paises["Argentina"] = "Buenos Aires"
-	fmt.Println(paises)
-	fmt.Println(paises["Argentina"])
+	/*fmt.Println(paises)
+	fmt.Println(paises["Argentina"])*/
 
 	campeonato := map[string]int{
 		"Barcelona":    39,
@@ -19,7 +19,10 @@ func MostrarMapas() {
 	}
 	fmt.Println(campeonato)
 
-	for equipo, puntaje := range campeonato {
-		fmt.Printf("Equipo %s, tiene un puntaje de %d \n", equipo, puntaje)
-	}
+	/*for equipo, puntaje := range campeonato {
+	 	fmt.Printf("Equipo %s, tiene un puntaje de %d \n", equipo, puntaje)
+	}*/
+
+	delete(campeonato, "Real Madrid")
+	fmt.Println(campeonato)
 }

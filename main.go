@@ -1,6 +1,6 @@
 package main
 
-import "github.com/Arturo/godesde0/arreglos_slices"
+import "github.com/Arturo/godesde0/mapas"
 
 //import "github.com/Arturo/godesde0/ejercicios"
 
@@ -36,6 +36,7 @@ func main() {
 	//funciones.Calculos()
 	//funciones.Exponencia(2)
 	//arreglos_slices.MuestroArreglos()
-	arreglos_slices.Capacidad()
+	//arreglos_slices.Capacidad()
+	mapas.MostrarMapas()
 
 }

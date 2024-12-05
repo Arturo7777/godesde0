@@ -1,8 +1,8 @@
 package main
 
-import "github.com/Arturo/godesde0/mapas"
-
-//import "github.com/Arturo/godesde0/ejercicios"
+import (
+	"github.com/Arturo/godesde0/users"
+)
 
 func main() {
 	/*estado, texto := variables.ConviertoaTexto(1588)
@@ -37,6 +37,7 @@ func main() {
 	//funciones.Exponencia(2)
 	//arreglos_slices.MuestroArreglos()
 	//arreglos_slices.Capacidad()
-	mapas.MostrarMapas()
+	//mapas.MostrarMapas()
+	users.AltaUsuario()
 
 }

@@ -25,4 +25,7 @@ func MostrarMapas() {
 
 	delete(campeonato, "Real Madrid")
 	fmt.Println(campeonato)
+
+	puntaje, existe := campeonato["Chivas"]
+	fmt.Printf("El puntaje capturado es %d, y el equipo existe = %t  \n", puntaje, existe)
 }

@@ -1,9 +1,7 @@
 package main
 
 import (
-	"fmt"
-
-	"github.com/Arturo/godesde0/goroutines"
+	"github.com/Arturo/godesde0/middleware"
 )
 
 func main() {
@@ -49,10 +47,13 @@ func main() {
 	e.HumanosRespirando(Maria)/-*/
 
 	//d.EjemploPanic()
-	canal1 := make(chan bool)
+	/*canal1 := make(chan bool)
 	go goroutines.MiNombreLentooo("Arturo Rodriguez", canal1)
 	fmt.Println("Estoy aqui")
 
-	<-canal1
+	<-canal1*/
+
+	//webserver.MiWebServer()
+	middleware.MiMiddleware()
 
 }

@@ -49,10 +49,10 @@ func main() {
 	e.HumanosRespirando(Maria)/-*/
 
 	//d.EjemploPanic()
-	go goroutines.MiNombreLentooo("Arturo Rodriguez")
-
+	canal1 := make(chan bool)
+	go goroutines.MiNombreLentooo("Arturo Rodriguez", canal1)
 	fmt.Println("Estoy aqui")
-	var x string
-	fmt.Scan(&x)
+
+	<-canal1
 
 }
